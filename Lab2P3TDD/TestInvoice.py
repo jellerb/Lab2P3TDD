@@ -26,3 +26,17 @@ def test_CanCalculateTotalPurePrice(invoice, products):
     invoice.totalPurePrice(products)
     assert invoice.totalPurePrice(products) == 69.38
 
+# added test to multiply total "cart" by a number of orders a user would like to submit
+def test_CanCalculateOrderNumberPrice(invoice, products):
+    invoice.orderNumberPrice(products, 3)
+    assert invoice.orderNumberPrice(products, 3) == 208.14
+
+# separated totalDiscount by assignment and calculation, test to make sure assignment and calculation functions are the same
+def test_CanCalculateTotalDiscountCalc(invoice, products):
+    invoice.totalDiscount(products)
+    invoice.totalDiscountCalc(products)
+    assert invoice.totalDiscountCalc(products) == 5.62
+
+
+
+

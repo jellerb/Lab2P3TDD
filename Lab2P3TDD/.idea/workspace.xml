@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="534ac8f7-c1ee-4949-b564-b3383e0048d1" name="Default Changelist" comment="" />
+    <list default="true" id="534ac8f7-c1ee-4949-b564-b3383e0048d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Invoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInvoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestInvoice.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="21Cwg8Nm8TyomxaJsTRA6dmVY8m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +31,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lab2P3TDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,9 +56,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TestInvoice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2P3TDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestInvoice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.TestInvoice" />
       </list>
     </recent_temporary>
   </component>
@@ -70,24 +102,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="135" key="#Main/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637547526211" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1637550317473">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1638834227073">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638834227073" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637548163489" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1637550317473" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1637550317473">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1638834227072">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638834227072" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637548163489" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1637550317473" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1637550317473">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1638834227072">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638834227072" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637548163489" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1637550317473" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1637550317473">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1638834227072">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638834227072" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637548163489" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1637550317473" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1637548068480">
@@ -102,5 +138,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2521" y="246" width="700" height="530" key="recent.locations.popup/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1637550168727" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638831378161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1638831378161" />
   </component>
 </project>

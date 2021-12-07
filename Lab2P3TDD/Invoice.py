@@ -7,6 +7,7 @@ class Invoice:
         self.items['qnt'] = qnt
         self.items['unit_price'] = price
         self.items['discount'] = discount
+
         return self.items
 
     def totalImpurePrice(self, products):
@@ -16,17 +17,27 @@ class Invoice:
         total_impure_price = round(total_impure_price, 2)
         return total_impure_price
 
+    # return total discount
     def totalDiscount(self, products):
+        total_discount = self.totalDiscountCalc(products)
+        return total_discount
+
+    #do calculations necessary to assign total discount
+    def totalDiscountCalc(self, products):
         total_discount = 0
         for k, v in products.items():
             total_discount += (int(v['qnt']) * float(v['unit_price'])) * float(v['discount']) / 100
         total_discount = round(total_discount, 2)
-        self.total_discount = total_discount
         return total_discount
 
     def totalPurePrice(self, products):
         total_pure_price = self.totalImpurePrice(products) - self.totalDiscount(products)
         return total_pure_price
+
+    #This function is used to multiply the total price of all products by a desired number of orders (Used for bulk ordering)
+    def orderNumberPrice(self, products, _order):
+        finalPrice = self.totalPurePrice(products) * _order
+        return finalPrice
 
     def inputAnswer(self, input_value):
         while True:
@@ -39,7 +50,7 @@ class Invoice:
         while True:
             try:
                 userInput = float(input(input_value))
-            except ValueErroe:
+            except ValueError:
                 print("Not a number! Try again.")
                 continue
             else:
